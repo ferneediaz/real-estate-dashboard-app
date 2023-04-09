@@ -134,7 +134,7 @@ function App() {
       <RefineSnackbarProvider>
         <Refine
           dataProvider={dataProvider(
-            "https://realestate-dashboard-oeez.onrender.com/api/v1"
+            "https://realestate-dashboard-oeez.onrender.com"
           )}
           notificationProvider={notificationProvider}
           ReadyPage={ReadyPage}
