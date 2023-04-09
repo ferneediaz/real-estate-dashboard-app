@@ -134,7 +134,7 @@ function App() {
       <RefineSnackbarProvider>
         <Refine
           dataProvider={dataProvider(
-            "https://realestate-dashboard-oeez.onrender.com/" 
+            "https://realestate-dashboard-oeez.onrender.com/api/v1"
           )}
           notificationProvider={notificationProvider}
           ReadyPage={ReadyPage}
@@ -155,16 +155,16 @@ function App() {
               show: AgentProfile,
               icon: <PeopleAltOutlined />,
             },
-            {
-              name: "reviews",
-              list: Home,
-              icon: <StarOutlineRounded />,
-            },
-            {
-              name: "messages",
-              list: Home,
-              icon: <ChatBubbleOutline />,
-            },
+            // {
+            //   name: "reviews",
+            //   list: Home,
+            //   icon: <StarOutlineRounded />,
+            // },
+            // {
+            //   name: "messages",
+            //   list: Home,
+            //   icon: <ChatBubbleOutline />,
+            // },
             {
               name: "my-profile",
               options: { label: "My Profile" },
