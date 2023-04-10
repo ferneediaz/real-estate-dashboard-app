@@ -20,7 +20,7 @@ This project was made in collaboration with mentors from the Discord community [
 ## Installation
 To install and run the app locally, please follow these steps:
 
-1. Clone the repository: `git clone https://github.com/your-username/real-estate-dashboard-app.git`
+1. Clone the repository: `git clone https://github.com/ferneediaz/real-estate-dashboard-app.git`
 2. Install dependencies: `npm install`
 3. Start the app: `npm start`
 4. Visit `http://localhost:3000` in your browser to view the app.
